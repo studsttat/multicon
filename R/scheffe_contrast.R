@@ -182,12 +182,4 @@ scheffe.contrast <- function(y,gr,coef1 = c(2,1,1), coef2 = c(1,1,1),
 
 }
 
-scheffe.contrast(y = data_rabbit$Treatment,gr = data_rabbit$Stimulant,
-                 coef1 = c(2,-1,-1), coef2 = c(3,-1,-2),
-                 conf.int = TRUE
-)
 
-scheffe.contrast(y = data_rabbit$Treatment,gr = data_rabbit$Stimulant,
-                 coef = c(2,-1,-1), coef2 = c(3,-1,-2),
-                 conf.int = FALSE
-)

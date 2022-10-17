@@ -143,22 +143,7 @@ contrast.ftest <- function(y,gr,coef = c(2,1,1),alpha = 0.05,
 
 }
 
-contrast.ftest(y = data_rabbit$Treatment,gr = data_rabbit$Stimulant,
-               coef = c(2,-1,-1),
-               conf.int = TRUE)
 
-contrast.ftest(y = data_rabbit$Treatment,gr = data_rabbit$Stimulant,
-               coef = c(2,-1,-1),
-               conf.int = F)
-
-
-contrast.ftest(y = data_rabbit$Treatment,gr = data_rabbit$Stimulant,
-               coef = c(0,-1,1),
-               conf.int = TRUE)
-
-contrast.ftest(y = data_rabbit$Treatment,gr = data_rabbit$Stimulant,
-               coef = c(0,-1,1),
-               conf.int = F)
 
 
 #######################################################################
@@ -330,12 +315,3 @@ scheffe.contrast <- function(y,gr,coef1 = c(2,1,1), coef2 = c(1,1,1),
 
 }
 
-scheffe.contrast(y = data_rabbit$Treatment,gr = data_rabbit$Stimulant,
-                 coef1 = c(2,-1,-1), coef2 = c(3,-1,-2),
-                 conf.int = TRUE
-)
-
-scheffe.contrast(y = data_rabbit$Treatment,gr = data_rabbit$Stimulant,
-                 coef = c(2,-1,-1), coef2 = c(3,-1,-2),
-                 conf.int = FALSE
-)
