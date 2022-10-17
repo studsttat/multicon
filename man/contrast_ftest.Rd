@@ -25,9 +25,7 @@ contrast.ftest(y,gr,coef = c(2,1,1),alpha = 0.05,
 
 
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
+
 
 
 \examples{
