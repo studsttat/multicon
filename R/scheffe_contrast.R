@@ -182,4 +182,3 @@ scheffe.contrast <- function(y,gr,coef1 = c(2,1,1), coef2 = c(1,1,1),
 
 }
 
-

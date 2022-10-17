@@ -1,11 +1,11 @@
 Package: multicon
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Multiple Comparison Test for Treatment Means
 Version: 0.1.0
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: A statistical Analysis that is used for multiple comparison test
+with linear combinations
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
